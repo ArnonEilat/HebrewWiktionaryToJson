@@ -1,0 +1,16 @@
+build/*
+dist/javadoc
+dist/javadoc/*
+htmlHelper
+htmlHelper/*
+output.json
+
+# NetBeans specific #
+# from: https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml

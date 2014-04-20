@@ -1,0 +1,165 @@
+#articleSeparator{
+    background-color: red;
+    height: 7px;
+    width: 100%;
+}
+html,body {
+    height:100%;
+    font-family:sans-serif;
+    font-size:1em;
+    margin:0;
+    padding:0;
+    direction:rtl;
+    line-height:1.5em;
+}
+
+a {
+    text-decoration:none;
+    color:#0645ad;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+hr {
+    height:1px;
+    color:#aaa;
+    background-color:#aaa;
+    border:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#000;
+    background:none;
+    font-weight:400;
+    overflow:hidden;
+    padding-top:.5em;
+    padding-bottom:.17em;
+
+    margin:0;
+}
+
+h1 {
+    font-size:188%;
+}
+
+h2 {
+    font-size:150%;
+    border-bottom:1px solid #aaa;
+}
+
+
+h3 {
+    font-size:132%;
+}
+
+
+h4 {
+    font-size:116%;
+}
+
+
+h6 {
+    font-size:80%;
+}
+
+
+
+
+p {
+    line-height:1.5em;
+    margin:.4em 0 .5em;
+}
+
+ul {
+    line-height:1.5em;
+    list-style-type:disc;
+    list-style-image:        url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXRSTlMAQObYZgAAABNJREFUCB1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII=");
+    margin:0em 1.3em 0 0em;
+}
+
+ol {
+    line-height:1.5em;
+    list-style-image:none;
+    margin:0em 1.3em 0 0em;
+}
+
+li {
+    margin-bottom:.1em;
+}
+
+
+dt {
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+dl {
+    margin-top:.2em;
+    margin-bottom:.5em;
+}
+
+dd {
+    line-height:1.5em;
+    margin-left:1.6em;
+    margin-bottom:.1em;
+}
+
+q {
+    font-family:Times,"Times New Roman",serif;
+    font-style:italic;
+}
+
+pre,code,tt,kbd,samp {
+    font-family:monospace,Courier;
+}
+
+mark {
+    background-color:#FF0;
+    color:#000;
+}
+
+
+.emphasis{
+    font-family: David,serif;  
+    background-color: rgb(255, 203, 203);
+}
+.afterEmphasis{
+    background-color: rgb(255, 232, 182);
+
+    font-family: David, serif;
+}
+
+
+.translation{
+    background-color: rgb(69, 255, 34)
+}
+
+.bibleQuote{  
+    font-family: David,serif;
+}
+.quote{
+    background-color: rgb(34, 202, 255);
+}
+.book{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.chapter{
+    background-color: rgb(255, 34, 246);
+}
+
+.sentence{
+    background-color: rgb(255, 204, 0);
+}
+
+.linguisticRegister{
+    color:#0080FF;
+    font-size: small;
+}
