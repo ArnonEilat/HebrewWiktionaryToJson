@@ -1,0 +1,66 @@
+html {
+
+}
+body {
+	direction: rtl;
+	font: 13px/22px Arial, sans-serif;
+	background-image: -ms-linear-gradient(bottom, rgba(187,202,215,0) 0%, rgba(187,202,215,1) 100%);
+	background-image: -moz-linear-gradient(bottom, rgba(187,202,215,0) 0%, rgba(187,202,215,1) 100%);
+	background-image: -o-linear-gradient(bottom, rgba(187,202,215,0) 0%, rgba(187,202,215,1) 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(187,202,215,0)), color-stop(1, rgba(187,202,215,1)));
+	background-image: -webkit-linear-gradient(bottom, rgba(187,202,215,0) 0%, rgba(187,202,215,1) 100%);
+	background-image: linear-gradient(to top, rgba(187,202,215,0) 0%, rgba(187,202,215,1) 100%);
+	color: #525c66;
+	min-height: 100%;
+}
+.page {
+	max-width: 650px;
+	margin: 25px auto 60px auto;
+	padding: 10px;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.62);
+	border: 4px solid rgba(187, 202, 215, 0.88);
+	border-radius: 10px;
+	background-color: white;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+.page:last-of-type {
+	max-width: 900px;
+}
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: #999;
+	width: 100%;
+	text-align: right;
+}
+.tg thead {
+
+	color: #fff;
+}
+
+.tg td {
+	padding: 10px 5px;border 0px solid #999;
+	color: #444;
+}
+.tg th {
+	text-align: center;border 0px solid #999;
+	padding: 10px 5px;
+	color: #444;
+}
+
+.tg tbody tr:nth-child(odd) {
+	background-color: rgba(223, 237, 255, 0.83);
+}
+
+.tg tbody tr td:nth-child(1) {}
+
+.tg tbody tr td:nth-child(2) {
+	text-align: left;
+	direction: ltr;
+}
+
+td.center-cell {
+	text-align: center;
+}
+

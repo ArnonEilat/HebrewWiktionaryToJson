@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Alef';
+	src: url('Alef-Webfont/Alef-Bold.eot');
+	src: url('Alef-Webfont/Alef-Bold.eot?#iefix') format('embedded-opentype'), url('Alef-Webfont/Alef-Bold.woff') format('woff'), url('Alef-Webfont/Alef-Bold.ttf') format('truetype'), url('Alef-Webfont/Alef-Bold.svg#alefbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Alef';
+	src: url('Alef-Webfont/Alef-Regular.eot');
+	src: url('Alef-Webfont/Alef-Regular.eot?#iefix') format('embedded-opentype'), url('Alef-Webfont/Alef-Regular.woff') format('woff'), url('Alef-Webfont/Alef-Regular.ttf') format('truetype'), url('Alef-Webfont/Alef-Regular.svg#alefregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+body {
+	direction: rtl;
+	font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+.ltr {
+	direction: ltr;
+}
+.text-box {
+	/*margin: 0 auto;*/
+	margin: 0px 9px 0px auto;
+	max-width: 780px;
+}
+th {
+	text-align: center;
+}
+.indent {
+	margin: 0px 33px 0px 0px;
+}
+.align-middle, .align-middle * {
+	vertical-align: middle !important;
+}
+
+#toc {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: auto;
+	margin: 0px 0px 0px 0px;
+	width: 300px;
+	height: 100%;
+	background-color: #18bc9c;
+}
+
+#toc h1 {
+	color: white;
+	text-align: center;
+}
+li.tocify-item  a {
+	color: white;
+	padding: 0px;
+}
+li.tocify-item  a:hover {
+	background-color: transparent;
+	color: #2c3e50;
+}
+.tocify-item.active {
+	background-color: #15a589;
+}
+.tocify-item.active > a {
+}
+
+@media all and (max-width: 1100px) {
+	#toc {
+		display: none !important;
+	}
+}
+
+.toolTip {
+	border-bottom: 1px dashed rgb(0, 175, 119);
+}

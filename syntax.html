@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>תחביר WIKI נתמך</title>
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author"      content="Arnon Eilat">
+
+		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/syntex.css">
+
+	</head>
+
+	<body>
+		<h1 class="text-center">תחביר WIKI נתמך</h1>
+		<div class="page">
+
+			<h2 class="text-center">HTML סטנדרטי</h2>
+			<table class="tg">
+				<thead>
+					<tr>
+						<th>תבנית וויקי</th>
+						<th>HTML</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="center-cell">======word=====</td>
+						<td>&lt;h6&gt;word&lt;/h6&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">=====word=====</td>
+						<td>&lt;h5&gt;word&lt;/h5&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">====word====</td>
+						<td>&lt;h4&gt;word&lt;/h4&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">===word===</td>
+						<td>&lt;h3&gt;word&lt;/h3&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">==word==</td>
+						<td>&lt;h2&gt;word&lt;/h2&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">==word==</td>
+						<td>&lt;h2&gt;word&lt;/h2&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">'''Bold Text'''</td>
+						<td>&lt;b&gt; Bold Text &lt;/b&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">''Italic Text''</td>
+						<td>&lt;/i&gt;Italic Text&lt;/i&gt;</td>
+					</tr>
+					<tr>
+						<td class="center-cell">----</td>
+						<td>&lt;hr/&gt;</td>
+					</tr>
+					<tr>
+						<td># רשימה ממוספרת
+						<br>
+						# רשימה ממוספרת
+						<br>
+						# רשימה ממוספרת</td>
+						<td>&lt;ol&gt;
+						<br>
+						&lt;li&gt;רשימה ממוספרת&lt;/li&gt;
+						<br>
+						&lt;li&gt;רשימה ממוספרת&lt;/li&gt;
+						<br>
+						&lt;li&gt;רשימה ממוספרת&lt;/li&gt;
+						<br>
+						&lt;/ol&gt;</td>
+					</tr>
+					<tr>
+						<td>* רשימה עם תבליט
+						<br>
+						* רשימה עם תבליט
+						<br>
+						* רשימה עם תבליט</td>
+						<td>&lt;ul&gt;
+						<br>
+						&lt;li&gt;רשימה עם תבליט&lt;/li&gt;
+						<br>
+						&lt;li&gt;רשימה עם תבליט&lt;/li&gt;
+						<br>
+						&lt;li&gt;רשימה עם תבליט&lt;/li&gt;
+						<br>
+						&lt;/ul&gt;</td>
+					</tr>
+					<tr>
+						<td>[http://ynet.co.il קישורלynet]</td>
+						<td>&lt;a href="http://ynet.co.il"&gt;קישור לynet&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td>[[שפה]]</td>
+						<td>&lt;a href="innerurl://שפה&lt;"שפה&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td>{{מוצרידלק}}</td>
+						<td>&lt;a href="innerURL://מוצרי דלק&lt;"מוצרי דלק&lt;/a&gt;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="page">
+			<h2 class="text-center">תבניות ייחודיות לוויקי מילון</h2>
+
+			<table class="tg">
+				<!-- <colgroup>
+				<col>
+				<col>
+				</colgroup> -->
+
+				<thead>
+					<tr>
+						<th>תבנית וויקי</th>
+						<th>HTML</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:ת">{{ת|אנגלית|Hotel}}</a></td>
+						<td>&lt;span class="translation" data-destinationLanguage="אנגלית"&gt;Hotel&lt;/span&gt;</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:משלב">{{משלב|ביולוגיה}}</a></td>
+						<td>&lt;span class="linguisticRegister"&gt;[אקולוגיה]&lt;/span&gt;</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:רובד">{{רובד|עבריתחדשה}}ביתהבנוימנסריםשלעץ</a></td>
+						<td>&lt;span class="rovedLashon"&gt;עברית חדשה&lt;/span&gt;בית הבנוי מנסרים של עץ</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:חידוש">{{חידוש|האקדמיהללשוןהעברית|שנה=תרע"ג}}המילהנקבעהעלידיועדהלשוןבהתעמלות.</a></td>
+						<td>&lt;span class="hidush"&gt;חידוש של האקדמיה ללשון העברית,
+						תרע"ג.&lt;/span&gt;המילה נקבעה על ידי ועד הלשון בהתעמלות.</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:לועזית">{{לועזית|איטלקית}}fata morgana</a></td>
+						<td>מאיטלקית: fata morgana</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:יוונית">{{יוונית|ἱπποπόταμος|hippopotamos}}</a></td>
+						<td>&lt;span data-transliterationlanguage="grc"&gt;hippopotamos&lt;/span&gt;) &lt;span lang="grc"&gt;ἱπποπόταμος&lt;/span&gt;)</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:יוניקוד">{{יוניקוד|بَرْق}}</a></td>
+						<td>&lt;span class="unicode"&gt;بَرْق&lt;/span&gt;</td>
+					</tr>
+					<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/תנ"ך">{{צט/תנ"ך|וְהַעֲבַרְתֶּםאוֹתָםעִמָּכֶםוְהִנַּחְתֶּםאוֹתָםבַּמָּלוֹןאֲשֶׁרתָּלִינוּבוֹהַלָּיְלָה.|יהושע|ד|ג}}</a></td>
+						<td>&lt;span class="quote"&gt;"וְהַעֲבַרְתֶּם אוֹתָם עִמָּכֶם וְהִנַּחְתֶּם אוֹתָם '''בַּמָּלוֹן''' אֲשֶׁר תָּלִינוּ בוֹ הַלָּיְלָה."&lt;/span&gt;&lt;span class="quote-origin"&gt;(יהושע ד – פסוק ג)&lt;/span&gt;</td>
+						</tr>
+						<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/בבלי">{{צט/בבלי|דבראחדלדורואיןשנידבריןלדור|סנהדרין|ח|א}}</a></td>
+						<td>&lt;span class="quote"&gt;"דבר אחד לדור ואין שני דברין לדור"&lt;/span&gt;&lt;span class="quote-origin"&gt;(בבלי, מסכת סנהדרין – דף ח, עמוד א׳)&lt;/span&gt;</td>
+						</tr>
+						<tr>
+						<td><a href="">{{צט|וַתּוֹצֵאהָאָרֶץדֶּשֶׁאעֵשֶׂבמַזְרִיעַזֶרַעלְמִינֵהוּ|בראשיתאיב}}</a></td>
+						<td>&lt;span class="quote"&gt;"וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ"&lt;/span&gt;&lt;span class="quote-origin"&gt;(בראשית א יב&lt;/span&gt;)</td>
+						</tr>
+						<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/אונקלוס">{{צט/אונקלוס|יִשָּׂשׂכָרעַתִּירבְּנִכְסִיןוְאַחֲסַנְתֵּהּבֵּיןתְּחוּמַיָּא.|בראשית|מט|יד}}</a></td>
+						<td>&lt;span class="quote"&gt;"יִשָּׂשׂכָר עַתִּיר בְּנִכְסִין וְאַחֲסַנְתֵּהּ בֵּין תְּחוּמַיָּא."&lt;/span&gt;&lt;span class="quote-origin"&gt;( (אונקלוס על בראשית מט – פסוק יד(&lt;/span&gt;</td>
+						</tr>
+						<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/ירושלמי">{{צט/ירושלמי|דאמררבייוחנן:הצדזיזיןזבוביןהגזיןיתושיןחייב.|שבת|עד|א}}</a></td>
+						<td>&lt;span class="quote"&gt;"דאמר רבי יוחנן: הצד זיזין זבובין הגזין יתושין חייב."&lt;/span&gt;&lt;span class="quote-origin"&gt;(ירושלמי, מסכת שבת – דף עד, עמוד א׳)&lt;/span&gt;</td>
+						</tr>
+						<tr>
+						<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/רבה">{{צט/רבה|באלוסמאלאצלאבינואברהםאמרליה'''סבא,סבא'''אובדתלבך|בראשית|נו|ד}}</a></td>
+						<td>&lt;span class="quote"&gt;"בא לו סמאל אצל אבינו אברהם אמר ליה '''סבא, סבא''' אובדת לבך"&lt;/span&gt;&lt;span class="quote-origin"&gt;(בראשית רבה, פרשה נו, סימן ד)&lt;/span&gt;</td>
+					</tr>
+					<tr>
+					<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/ללא">{{צט/ללא|ומטמאיןבשיערצהבדקשמראיוכתבניתהזהב.|תוספתאנגעים,פרקא}}</a></td>
+					<td>&lt;span class="quote"&gt;ומטמאין בשיער צהב דק שמראיו כתבנית הזהב.&lt;/span&gt;&lt;span class="quote-origin"&gt;(תוספתא נגעים, פרק א&lt;/span&gt;)</td>
+					</tr>
+					<tr>
+					<td><a href="https://he.wiktionary.org/wiki/תבנית:צט/ללא">{{צט|הללהזקןהיהדורשלשוןהדיוט|בבאמציעאקדא}}</a></td>
+					<td>&lt;span class="quote"&gt;"הלל הזקן היה דורש לשון הדיוט"&lt;/span&gt;&lt;span class="quote-origin"&gt;(בבא מציעא קד א&lt;/span&gt;)</td>
+					</tr>
+					<tr>
+					<td><a href="https://he.wiktionary.org/wiki/תבנית:ציטוטון">{{ציטוטון|אֲנִיחוֹשֵׁב,מַשְׁמָעאֲנִיקַיָּם|רנהדקארט}}</a></td>
+					<td>&lt;span class="quote-small"&gt;אֲנִי חוֹשֵׁב, מַשְׁמָע אֲנִי קַיָּם&lt;/span&gt;, רנה דקארט</td>
+					</tr>
+					<tr>
+					<td><a href="https://he.wiktionary.org/wiki/תבנית:הדגשה">{{הדגשה|"וְהֶאֱמִןבַּיהוָהוַיַּחְשְׁבֶהָלּוֹצְדָקָה"|(בראשיתטוו)}}</a></td>
+					<td>&lt;span class="emphasis"&gt;"וְהֶאֱמִן בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה"&lt;/span&gt;&lt;span class="afterEmphasis"&gt;(בראשית טו ו)&lt;/span&gt;</td>
+					</tr>
+					<tr>
+					<td><a href="https://he.wiktionary.org/wiki/תבנית:ר"ת">{{ר"ת|אנגלית|Greenwich Mean Time.|שעוןגריניץ'.}}</a></td>
+					<td>Greenwich Mean Time. (אנגלית) &lt;br&gt;שעון גריניץ</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>מבנה של אובייקט JSON</title>
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author"       content="">
+
+		<link  rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<link  rel="stylesheet" type="text/css" href="css/json.css">
+
+	</head>
+
+	<body>
+		<h1 class="text-center">מבנה של אובייקט JSON</h1>
+		<div class="page">
+
+			<table class="jsonTable">
+				<colgroup>
+					<col style="width: 10%;">
+					<col style="width: 30%;">
+					<col style="width: 60%;">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>שם התכונה</th>
+						<th >סוג</th>
+						<th >תוכן</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="text-center">title</td>
+						<td >מערך מחרוזות או מחרוזת</td>
+						<td >כותרת או כותרות הערך.</td>
+					</tr>
+					<tr>
+						<td class="text-center">translation</td>
+						<td >מערך מחרוזות</td>
+						<td >תרגומי הערך.</td>
+					</tr>
+					<tr>
+						<td class="text-center">etymology</td>
+						<td >מחרוזת</td>
+						<td >גיזרון.</td>
+					</tr>
+					<tr>
+						<td class="text-center">look_by</td>
+						<td >מערך מחרוזות.</td>
+						<td >מחרוזות לפיהן הערך ימצא.</td>
+					</tr>
+					<tr>
+						<td class="text-center">explanation</td>
+						<td class="text-center">מערך אובייקטים</td>
+						<td>
+						<table>
+							<colgroup>
+								<col style="width: 10%;">
+								<col style="width: 30%;">
+								<col style="width: 60%;">
+							</colgroup>
+							<thead>
+								<tr>
+									<th >שם התכונה</th>
+									<th >סוג</th>
+									<th>תוכן</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">description</td>
+									<td >מחרוזת</td>
+									<td >תיאור של הערך</td>
+								</tr>
+								<tr>
+									<td class="text-center">example_list</td>
+									<td >מערך מחרוזות</td>
+									<td >דוגמאות לשימוש בערך בהקשר של הdescription</td>
+								</tr>
+							</tbody>
+						</table></td>
+					</tr>
+					<tr>
+						<td >nituach_dikduki</td>
+						<td class="text-center">אובייקט</td>
+						<td>
+						<table>
+							<colgroup>
+								<col style="width: 10%;">
+								<col style="width: 30%;">
+								<col style="width: 60%;">
+							</colgroup>
+							<thead>
+								<tr>
+									<th >שם התכונה</th>
+									<th >סוג</th>
+									<th>תוכן</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">ktivmale</td>
+									<td class="text-center" rowspan="9">מחרוזת</td>
+									<td >כתיב מלא של הערך</td>
+								</tr>
+								<tr>
+									<td class="text-center">pronunciation</td>
+									<td >הגיה</td>
+								</tr>
+								<tr>
+									<td class="text-center">lexicalclass</td>
+									<td >חלקי הדיבר: תואר, פועל, ש"ע וכדומה.</td>
+								</tr>
+								<tr>
+									<td class="text-center">gender</td>
+									<td >מגדר</td>
+								</tr>
+								<tr>
+									<td class="text-center">rootword</td>
+									<td >שורש</td>
+								</tr>
+								<tr>
+									<td class="text-center">form</td>
+									<td >גזרה: שלמים, מרובעים, פ"א, ע"ו, ע"י וכדומה</td>
+								</tr>
+								<tr>
+									<td class="text-center">building</td>
+									<td >בניין</td>
+								</tr>
+								<tr>
+									<td class="text-center">netiyot</td>
+									<td >נטיות</td>
+								</tr>
+								<tr>
+
+									<td class="text-center">Derechtatzura</td>
+									<td >דרך תצורה: פָּעַל, נִפְעַל, הִפְעִיל, הֻפְעַל וכדומה</td>
+								</tr>
+							</tbody>
+						</table></td>
+					</tr>
+					<tr>
+						<td>categories</td>
+						<td >מערך מחרוזות</td>
+						<td >הקטגוריות של הערך.</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+	</body>
+</html>
+
